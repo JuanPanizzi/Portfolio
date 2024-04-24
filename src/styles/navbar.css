@@ -1,0 +1,5 @@
+.blur-bg {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+    backdrop-filter: blur(10px); /* Aplica un filtro de difuminado */
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease; /* Agrega una transición suave */
+  }
