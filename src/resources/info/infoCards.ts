@@ -12,7 +12,7 @@ export const infoCards = [
     {
         title: "Chat de Whatsapp",
         image: chat,
-        description: "Chat de mensajes para comunicarse en tiempo real.",
+        description: "Chat de mensajes para comunicarse en tiempo real estilizado como el chat de whatsapp.",
         technologies: ["NestJs", "Websockets", "NodeJs", "Typescript", " React"," Tailwind"],
         urlDeploy: "https://chat-de-mensajes-client.onrender.com/",
         urlGithub: "https://github.com/JuanPanizzi/Chat-de-mensajes"
@@ -21,7 +21,7 @@ export const infoCards = [
         title: "Parar de Fumar",
         image: noFumar,
         technologies: ["NestJs","NodeJs", "MongoDB", "Passport", "Jwt", "Typescript", "React", "Tailwind" ],
-        description: "App con utilidades para ayudar a la gente a dejar de fumar.",
+        description: "App con utilidades para ayudar a la gente a dejar de fumar. Integrado con registro, autenticación e inicio de sesión",
         urlDeploy: "https://no-fumar-app.onrender.com/",
         urlGithub: "https://github.com/JuanPanizzi/No-Fumar"
     },

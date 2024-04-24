@@ -21,13 +21,13 @@ export const Navbar = () => {
 
   return (
     
-    <div className='fixed top-1 left-0 right-0  mx-auto w-4/5 '>
+    <div className='fixed top-0 left-0 right-0  mx-auto w-4/5 md:w-4/5  '>
         <nav className=''>
-            <ul className={`text-xs  flex justify-center  items-center  rounded-full p-1 text-white transition-all duration-300 ${scrolled ? 'bg-black-cards blur-bg-white' : ''} `}>
-                <li><a href="#proyectos"> Proyectos </a></li>
-                <li className='mx-2 '> <a href="#tecnologias"> Tecnologías </a> </li>
-                <li className='mr-2'><a href="#aboutme">  Sobre Mí </a></li>
-                <li > <a href="#contacto"> Contacto </a> </li>
+            <ul className={` md:text-lg  md:flex md:justify-evenly font-medium text-xs  flex justify-center  items-center rounded-b-lg p-1 text-white transition-all duration-300 ${scrolled ? 'bg-black-cards blur-bg-white' : ''} `}>
+                <li className='hover:text-green-1 transition'> <a href="#proyectos"> Proyectos </a></li>
+                <li className='mx-2 md:mx-0 hover:text-green-1 transition'> <a href="#tecnologias"> Tecnologías </a> </li>
+                <li className='mr-2 md:mx-0 hover:text-green-1 transition'><a href="#aboutme">  Sobre Mí </a></li>
+                <li className='hover:text-green-1 transition'> <a href="#contacto"> Contacto </a> </li>
             </ul>
         </nav>
     </div>
