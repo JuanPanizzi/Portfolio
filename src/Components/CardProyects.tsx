@@ -3,7 +3,7 @@ import { CardProps } from '../interfaces/CardProps'
 export const CardProyects = ({title, image, description, technologies, urlDeploy, urlGithub}: CardProps) => {
   return (
     <>
-    <article className="group mb-5 p-1  text-center bg-black-cards shadow-lg shadow-black text-white rounded-xl">
+    <article className=" group mb-5 p-1 md:w-[29%] md:mx-[0px] mx-auto   text-center bg-black-cards shadow-lg shadow-black text-white rounded-xl">
   <img
     alt={title}
     src={image}
