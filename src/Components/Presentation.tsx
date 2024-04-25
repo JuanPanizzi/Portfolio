@@ -2,25 +2,25 @@ import {  ButtonLink } from '../Shared/buttonLink'
 import juan from '../resources/yo.jpeg'
 
 
-
+// mt-32 mb-32
 export const Presentation = () => {
   return (
-    <section className='mt-20 md:mt-0 text-white mx-auto w-4/5 text-center md:w-4/5 md:h-screen md:flex md:items-center  '>
+    <section className='h-screen flex items-center  text-white mx-auto w-4/5 text-center md:w-4/5 md:h-screen md:flex md:items-center md:mt-0 '>
 
-<article className='md:flex md:justify-between md:items-center '>
+<article className=' md:flex md:justify-between md:items-center  '>
 
       <div className=''>
-        <div className='w-20 sm:w-24 mx-auto rounded-full md:w-44'>
+        <div className='w-28  mx-auto rounded-full md:w-44'>
           <img className=' rounded-xl md:rounded-full' src={juan} alt="" />
         </div>
           {/* <p className='w-1/3 mt-2 mx-auto text-[0.5rem] bg-gray-1 text-green-1 border border-green-1 rounded-full p-1 font-bold'>Desarrollador Full Stack</p> */}
       </div>
 
-      <div className='md:text-left md:w-4/5 ml-7'>
+      <div className='  md:text-left md:w-4/5 md:ml-7 '>
 
-      <h1 className='text-xl font-bold md:text-3xl lg:text-4xl '>Juan Panizzi</h1>
-      <p className='mb-2 font-bold text-green-1 text-xl md:text-3xl lg:text-4xl'>Desarrollador Full Stack </p>
-      <p className='text-xs md:text-xs lg:text-lg mb-3'>  
+      <h1 className='text-2xl font-bold md:text-3xl lg:text-4xl '>Juan Panizzi</h1>
+      <p className='mb-2 font-bold text-green-1 text-2xl md:text-3xl lg:text-4xl'>Desarrollador Full Stack </p>
+      <p className='text-base md:text-xs lg:text-lg mb-3'>  
       ¡Hola! Soy un programador con experiencia en el manejo de tecnologías relacionadas tanto al frontend como al backend. Me gusta participar en ambas áreas y poder colaborar en ellas en todo lo que pueda. </p>
     <div className='flex  justify-center md:justify-start'>
       <ButtonLink title='Github' url='https://github.com/JuanPanizzi' />

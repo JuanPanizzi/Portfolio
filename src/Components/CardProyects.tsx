@@ -3,17 +3,17 @@ import { CardProps } from '../interfaces/CardProps'
 export const CardProyects = ({title, image, description, technologies, urlDeploy, urlGithub}: CardProps) => {
   return (
     <>
-    <article className=" group mb-5  md:w-[29%] md:mx-[0px] mx-auto text-center bg-black-cards shadow-lg shadow-black text-white rounded-xl md:flex md:flex-col  md:p-2 ">
+    <article className="p-2  group mb-5  md:w-[29%] md:mx-[0px] mx-auto text-center bg-black-cards shadow-lg shadow-black text-white rounded-xl md:flex md:flex-col  md:p-2 ">
   <img
     alt={title}
     src={image}
     className="w-full   mx-auto mt-1 rounded-xl shadow-xl transition "
   />
-<div className='ml-2'>
-  <ul className='flex flex-wrap   mt-1 md:my-2 md:mb-3  text-slate-300'>
+<div className='ml-2 mt-1 mb-6'>
+  <ul className='flex flex-wrap     text-slate-300'>
     {
       technologies.map((tech, index)=> (
-        <li key={index} className='mr-1 text-[5px] md:text-sm '>{tech}</li>
+        <li key={index} className='mr-1 text-[10px] md:text-sm '>{tech}</li>
       ))
     }
   </ul>
@@ -27,20 +27,21 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
     </p>
   </div>
 
-    <div className='w-full flex justify-center items-center md:justify-start md:mt-auto md:ml-2  md:pt-0 md:pb-2  py-2 '>
+    <div className='w-full flex justify-center items-center md:justify-start mt-auto md:pb-2  py-2 '>
    
    {
     urlDeploy &&
-    <a href={urlDeploy} className='  text-green-1 py-[1px] flex items-center   rounded-full flex  text-[0.5rem]  mr-1 transition   hover:bg-black-btn-hover  
-    md:text-sm bg-black-btn text-white p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1'
+    <a href={urlDeploy} className='text-green-1 py-[1px] flex items-center   rounded-full flex  
+    text-[0.5rem]  mr-1 transition   hover:bg-black-btn-hover  
+    lg:text-sm bg-black-btn text-white p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1'
     target='_blank'
     >
-          Ver Proyecto
+          Proyecto
           <i className="fa-solid fa-link ml-1"></i>
         </a>
         }
 
-        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-[0.5rem]  mr-1 transition  hover:bg-black-btn-hover  md:text-sm bg-black-btn text-white  p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1  '
+        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-[0.5rem]   transition  hover:bg-black-btn-hover  lg:text-sm bg-black-btn text-white  p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1  '
     target='_blank'
         >
           Repositorio
