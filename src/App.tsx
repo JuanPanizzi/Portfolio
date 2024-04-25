@@ -1,7 +1,6 @@
 import './App.css'
 import { AboutMe } from './Components/AboutMe'
 import { Contact } from './Components/Contact'
-import { Contacto } from './Components/Contacto'
 import { Footer } from './Components/Footer'
 import { Habilidades } from './Components/Habilidades'
 import { Navbar } from './Components/Navbar'

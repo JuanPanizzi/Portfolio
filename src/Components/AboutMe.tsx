@@ -1,4 +1,4 @@
-import me from '../resources/Juan.jpeg'
+// import me from '../resources/Juan.jpeg'
 
 export const AboutMe = () => {
   return (
