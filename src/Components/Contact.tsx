@@ -12,7 +12,7 @@ export const Contact = () => {
   Plugins:
     - @tailwindcss/forms
 */}
-<h1 className='text-white text-center mt-28 mb-4 font-medium md:mt-40 md:mb-16 md:text-4xl' id='contacto'>¡Contactame!</h1>
+<h1 className='text-3xl  text-white text-center mt-28 mb-14 font-medium md:mt-40 md:mb-16 md:text-4xl' id='contacto'>¡Contactame!</h1>
 <section className=''>
 
     <div className=" w-4/5 mx-auto max-w-screen-xl  py-1 sm:px-6 lg:px-8">

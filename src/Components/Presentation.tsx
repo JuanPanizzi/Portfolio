@@ -18,9 +18,9 @@ export const Presentation = () => {
 
       <div className='  md:text-left md:w-4/5 md:ml-7 '>
 
-      <h1 className='text-2xl font-bold md:text-3xl lg:text-4xl '>Juan Panizzi</h1>
-      <p className='mb-2 font-bold text-green-1 text-2xl md:text-3xl lg:text-4xl'>Desarrollador Full Stack </p>
-      <p className='text-base md:text-xs lg:text-lg mb-3'>  
+      <h1 className='text-3xl font-bold md:text-3xl lg:text-4xl '>Juan Panizzi</h1>
+      <p className='mb-2 font-bold text-green-1 text-3xl md:text-3xl lg:text-4xl'>Desarrollador Full Stack </p>
+      <p className='text-lg md:text-xs lg:text-lg mb-3'>  
       ¡Hola! Soy un programador con experiencia en el manejo de tecnologías relacionadas tanto al frontend como al backend. Me gusta participar en ambas áreas y poder colaborar en ellas en todo lo que pueda. </p>
     <div className='flex  justify-center md:justify-start'>
       <ButtonLink title='Github' url='https://github.com/JuanPanizzi' />

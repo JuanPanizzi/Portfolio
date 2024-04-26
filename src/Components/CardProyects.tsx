@@ -10,19 +10,19 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
     className="w-full   mx-auto mt-1 rounded-xl shadow-xl transition "
   />
 <div className='ml-2 mt-1 mb-6'>
-  <ul className='flex flex-wrap     text-slate-300'>
+  <ul className='flex flex-wrap  text-slate-300'>
     {
       technologies.map((tech, index)=> (
-        <li key={index} className='mr-1 text-[10px] md:text-sm '>{tech}</li>
+        <li key={index} className='mr-1 text-base md:text-lg '>{tech}</li>
       ))
     }
   </ul>
 </div>
 
   <div className="md:ml-2">
-      <h3 className="text-sm font-medium md:text-xl md:text-left text-green-1">{title}</h3>
+      <h3 className="text-lg font-medium md:text-2xl md:text-left text-green-1">{title}</h3>
 
-    <p className=" text-xs md:text-sm md:mt-2 md:mb-5 md:text-left">
+    <p className=" text-base md:text-lg md:mt-2 md:mb-5 md:text-left">
       {description}
     </p>
   </div>
@@ -32,8 +32,8 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
    {
     urlDeploy &&
     <a href={urlDeploy} className='text-green-1 py-[1px] flex items-center   rounded-full flex  
-    text-[0.5rem]  mr-1 transition   hover:bg-black-btn-hover  
-    lg:text-sm bg-black-btn text-white p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1'
+    text-sm  mr-1 transition   hover:bg-black-btn-hover  
+    lg:text-lg bg-black-btn text-white p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1'
     target='_blank'
     >
           Proyecto
@@ -41,7 +41,7 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
         </a>
         }
 
-        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-[0.5rem]   transition  hover:bg-black-btn-hover  lg:text-sm bg-black-btn text-white  p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1  '
+        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-sm   transition  hover:bg-black-btn-hover  lg:text-lg bg-black-btn text-white  p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1  '
     target='_blank'
         >
           Repositorio
