@@ -16,7 +16,7 @@ export const CardTechno = ({title, image}: TechnoProps) => {
     </div>
 
         <div className="w-full mt-auto">
-        <p className="text-[0.5rem] text-white text-medium md:text-base  text-center">{title}</p>
+        <p className="text-base text-white text-medium md:text-lg  text-center">{title}</p>
 
         </div>
 

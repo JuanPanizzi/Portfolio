@@ -13,7 +13,7 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
   <ul className='flex flex-wrap justify-center md:justify-start text-slate-300'>
     {
       technologies.map((tech, index)=> (
-        <li key={index} className='mr-4 text-base md:text-base md:mr-3 '>{tech}</li>
+        <li key={index} className='mr-4 text-sm md:text-base md:mr-3 '>{tech}</li>
       ))
     }
   </ul>
@@ -33,7 +33,7 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
     urlDeploy &&
     <a href={urlDeploy} className='text-green-1 py-[1px] flex items-center   rounded-full flex  
     text-sm  mr-1 transition   hover:bg-black-btn-hover  
-    lg:text-lg bg-black-btn text-white p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1'
+    lg:text-base bg-black-btn text-white p-3 py-[4px] md:p-1 md:px-4 hover:text-green-1'
     target='_blank'
     >
           Proyecto
@@ -41,7 +41,7 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
         </a>
         }
 
-        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-sm   transition  hover:bg-black-btn-hover  lg:text-lg bg-black-btn text-white  p-3 py-[4px] md:p-2 md:px-4 hover:text-green-1  '
+        <a href={urlGithub} className='flex items-center  text-green-1 py-[1px] rounded-full fle  text-sm   transition  hover:bg-black-btn-hover  lg:text-base bg-black-btn text-white  p-3 py-[4px] md:p-1 md:px-4 hover:text-green-1  '
     target='_blank'
         >
           Repositorio
