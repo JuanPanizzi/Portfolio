@@ -44,8 +44,8 @@ export const infoCards = [
     {
         title: "App Mercado (AWP)",
         image: awp,
-        technologies: ["Service Workers", "React", "Chakra UI" , "Css"],
-        description: "Aplicación Web Progresiva instalable para controlar los gastos del supermercado antes o al momento de hacer las compras",
+        technologies: ["Service Workers", "React", "ChakraUI" , "Css"],
+        description: "Aplicación Web Progresiva instalable para controlar los gastos del supermercado ",
         urlDeploy: "https://controlador-gastos-supermercado.vercel.app/",
         urlGithub: "https://github.com/JuanPanizzi/Control-Gastos-Supermercado"
     },

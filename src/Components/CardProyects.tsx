@@ -9,25 +9,25 @@ export const CardProyects = ({title, image, description, technologies, urlDeploy
     src={image}
     className="w-full   mx-auto mt-1 rounded-xl shadow-xl transition "
   />
-<div className='ml-2 mt-1 mb-6'>
-  <ul className='flex flex-wrap  text-slate-300'>
+<div className='ml-2 mt-1 mb-5 '>
+  <ul className='flex flex-wrap justify-center md:justify-start text-slate-300'>
     {
       technologies.map((tech, index)=> (
-        <li key={index} className='mr-1 text-base md:text-lg '>{tech}</li>
+        <li key={index} className='mr-4 text-base md:text-base md:mr-3 '>{tech}</li>
       ))
     }
   </ul>
 </div>
 
-  <div className="md:ml-2">
+  <div className="md:ml-2 mb-auto pb-2 md:pb-4 ">
       <h3 className="text-lg font-medium md:text-2xl md:text-left text-green-1">{title}</h3>
 
-    <p className=" text-base md:text-lg md:mt-2 md:mb-5 md:text-left">
+    <p className=" text-base md:text-lg md:mt-2  md:text-left">
       {description}
     </p>
   </div>
 
-    <div className='w-full flex justify-center items-center md:justify-start mt-auto md:pb-2  py-2 '>
+    <div className=' md:pl-2 w-full flex justify-center md:flex-wrap md:justify-start mt-auto md:pb-2  py-2 '>
    
    {
     urlDeploy &&
