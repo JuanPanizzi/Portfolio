@@ -3,7 +3,7 @@
 export const AboutMe = () => {
   return (
     <>
-    <h1  className="text-xl text-white text-center mt-11 mb-4  font-medium md:text-4xl md:mt-40 md:mb-10 "  >Sobre Mí</h1>
+    <h1  className="text-2xl text-white text-center mt-11 mb-4  font-medium md:text-4xl md:mt-40 md:mb-10 "  >Sobre Mí</h1>
     <article id='aboutme' className=' w-4/5 mx-auto text-sm md:text-lg text-center text-white' >
             {/* <div className='pt-2'>
                 <img className='w-1/3 mx-auto rounded-xl' src={me} alt="juan" />
