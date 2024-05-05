@@ -18,7 +18,7 @@ export const infoCards = [
         urlGithub: "https://github.com/JuanPanizzi/Chat-de-mensajes"
     },
     {
-        title: "Parar de Fumar",
+        title: "Dejar de Fumar",
         image: noFumar,
         technologies: ["NestJs","NodeJs", "MongoDB", "Passport", "Jwt", "Typescript", "React", "Tailwind" ],
         description: "App con utilidades para ayudar a la gente a dejar de fumar. Integrado con registro, autenticación e inicio de sesión",
