@@ -7,6 +7,7 @@ import memotest from '../imageProjects/memo-test.png'
 import dev from '../imageProjects/dev-game.png'
 import buscador from '../imageProjects/buscador.jpg'
 import api from '../imageProjects/Api.png'
+import estudio from '../imageProjects/estudio.jpg'
 
 export const infoCards = [ 
     {
@@ -32,6 +33,14 @@ export const infoCards = [
         description: "API REST con diferentes endpoints que permiten la creación, obtención, actualización y eliminación de usuarios y posteos. ",
         urlDeploy: "",
         urlGithub: "https://github.com/JuanPanizzi/API-REST"
+    },
+    ,{
+            title: "Web Estudio Jurídico",
+            image: estudio,
+            technologies: ["React", "Typescript", "Tailwind" ],
+            description: "Página Web para estudio jurídico de la ciduad de Buenos Aires ",
+            urlDeploy: "https://debella.vercel.app/",
+            urlGithub: "https://github.com/JuanPanizzi/Estudio-jur-dico.git"
     },
     {
         title: "App de Feriados",
