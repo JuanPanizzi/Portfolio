@@ -38,7 +38,7 @@ export const infoCards = [
         title: "Página Web",
         image: estudio,
         technologies: ["React", "Typescript", "Tailwind" ],
-        description: "API REST con diferentes endpoints que permiten la creación, obtención, actualización y eliminación de usuarios y posteos. ",
+        description: "Página Web para estudio jurídico. ",
         urlDeploy: "https://debella.vercel.app/",
         urlGithub: "https://github.com/JuanPanizzi/Estudio-jur-dico.git"
     },
