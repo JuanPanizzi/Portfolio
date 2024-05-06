@@ -34,13 +34,13 @@ export const infoCards = [
         urlDeploy: "",
         urlGithub: "https://github.com/JuanPanizzi/API-REST"
     },
-    ,{
-            title: "Web Estudio Jurídico",
-            image: estudio,
-            technologies: ["React", "Typescript", "Tailwind" ],
-            description: "Página Web para estudio jurídico de la ciduad de Buenos Aires.",
-            urlDeploy: "https://debella.vercel.app/",
-            urlGithub: "https://github.com/JuanPanizzi/Estudio-jur-dico.git"
+    {
+        title: "Página Web",
+        image: estudio,
+        technologies: ["React", "Typescript", "Tailwind" ],
+        description: "API REST con diferentes endpoints que permiten la creación, obtención, actualización y eliminación de usuarios y posteos. ",
+        urlDeploy: "https://debella.vercel.app/",
+        urlGithub: "https://github.com/JuanPanizzi/Estudio-jur-dico.git"
     },
     {
         title: "App de Feriados",
