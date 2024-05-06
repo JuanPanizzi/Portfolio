@@ -38,7 +38,7 @@ export const infoCards = [
             title: "Web Estudio Jurídico",
             image: estudio,
             technologies: ["React", "Typescript", "Tailwind" ],
-            description: "Página Web para estudio jurídico de la ciduad de Buenos Aires ",
+            description: "Página Web para estudio jurídico de la ciduad de Buenos Aires.",
             urlDeploy: "https://debella.vercel.app/",
             urlGithub: "https://github.com/JuanPanizzi/Estudio-jur-dico.git"
     },
