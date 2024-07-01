@@ -25,8 +25,8 @@ export const Presentation = () => {
     <div className='flex  justify-center md:justify-start'>
       <ButtonLink title='Github' url='https://github.com/JuanPanizzi' />
       <ButtonLink title='Linkedin' url='https://www.linkedin.com/in/juan-panizzi-768522105/' />
-      <ButtonLink title='Descargar CV' url='https://drive.google.com/file/d/1Hc9fT4A8y8XLxc9_WxXe4c5bcbLyB58D/view'/>
-
+      <ButtonLink title='Descargar CV' url='https://drive.google.com/file/d/1XlwVUriY4rgFnUVzNGKP1aoTlFwQ--Ii/view'/>
+      
     </div>
       </div>
 
