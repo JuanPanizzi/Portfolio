@@ -1,6 +1,6 @@
 import chat from '../imageProjects/chat1.jpeg'
 import feriado from '../imageProjects/feriad.jpg'
-import noFumar from '../imageProjects/Fumar.png'
+// import noFumar from '../imageProjects/Fumar.png'
 import awp from '../imageProjects/awp-capture.png'
 import hp from '../imageProjects/HpCaracteres.gif'
 import memotest from '../imageProjects/memo-test.png'
@@ -8,8 +8,18 @@ import dev from '../imageProjects/dev-game.png'
 import buscador from '../imageProjects/buscador.jpg'
 import api from '../imageProjects/Api.png'
 import estudio from '../imageProjects/estudio.jpg'
+import beConnection from '../imageProjects/be-connections.jpg'
 
 export const infoCards = [ 
+    
+    {
+            title: "Be Connections",
+            image: beConnection,
+            technologies: ["Typescript", "React", "Tailwind" ],
+            description: "Página web para comunidad de Nordelta para visualizar sus servicios y actividades.",
+            urlDeploy: "https://be-connection-git-main-juanpanizzis-projects.vercel.app/",
+            urlGithub: "https://github.com/JuanPanizzi/Be-connection"
+        },
     {
         title: "Chat de Whatsapp",
         image: chat,
@@ -18,14 +28,14 @@ export const infoCards = [
         urlDeploy: "https://chat-de-mensajes-client.onrender.com/",
         urlGithub: "https://github.com/JuanPanizzi/Chat-de-mensajes"
     },
-    {
-        title: "Dejar de Fumar",
-        image: noFumar,
-        technologies: ["NestJs","NodeJs", "MongoDB", "Passport", "Jwt", "Typescript", "React", "Tailwind" ],
-        description: "App con utilidades para ayudar a la gente a dejar de fumar. Integrado con registro, autenticación e inicio de sesión",
-        urlDeploy: "https://no-fumar-app.onrender.com/",
-        urlGithub: "https://github.com/JuanPanizzi/No-Fumar"
-    },
+    // {
+    //     title: "Dejar de Fumar",
+    //     image: noFumar,
+    //     technologies: ["NestJs","NodeJs", "MongoDB", "Passport", "Jwt", "Typescript", "React", "Tailwind" ],
+    //     description: "App con utilidades para ayudar a la gente a dejar de fumar. Integrado con registro, autenticación e inicio de sesión",
+    //     urlDeploy: "https://no-fumar-app.onrender.com/",
+    //     urlGithub: "https://github.com/JuanPanizzi/No-Fumar"
+    // },
     {
         title: "API Rest",
         image: api,
